@@ -2,12 +2,28 @@
 
 @media screen and (max-width: 767px) {
     .container {
-       max-width: 767px;
+      width: 70%;
 
        
     }
-    .steps{
-        width: 150%;
-    }
-}
+ }
 /* responsive mobile */
+@media screen and (max-width:480px) {
+  .row{
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  .lessons .col{
+    width: 100%;
+  }
+  .steps .col{
+    width: 100%;
+  }
+  .why-us .col-left{
+    width: 100%;
+  }
+  .why-us .col-right{
+    width: 100%;
+  }
+    
+}
