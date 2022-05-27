@@ -1,0 +1,13 @@
+/* responsive tablet */
+
+@media screen and (max-width: 767px) {
+    .container {
+       max-width: 767px;
+
+       
+    }
+    .steps{
+        width: 150%;
+    }
+}
+/* responsive mobile */
